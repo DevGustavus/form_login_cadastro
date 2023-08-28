@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>formulario_login gustavus</title>
+</head>
+<body>
+    
+    <main id="container">
+
+        <form id="login-form">
+
+            <!--MY GITHUB ICONS-->
+            <div id="my_github">
+                <p><- My GitHub</p>
+                <img src="../images/gustavus_cat.png" alt="gustavus">
+            </div>
+
+            <!--MESSAGE BOX-->
+            <div id="msg"></div>
+
+            <!--FORM HEADER-->
+            <div id="form-header">
+                <h1 id="form-header-h1">Sign UP</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <!--SOCIAL MEDIA ICONS-->
+            <div id="social_media">
+
+                <a href="#">
+                    <img src="../images/facebook.png" alt="facebook logo">
+                </a>
+
+                <a href="#">
+                    <img src="../images/google.png" alt="Google logo">
+                </a>
+                
+                <a href="https://github.com/DevGustavus">
+                    <img src="../images/github.png" alt="github logo">
+                </a>
+            </div>
+
+            <div id="form-inputs">
+
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email_signUP">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email_signUP" name="email_signUP">
+                        </div>
+                    </label>
+                </div>
+
+                <!--NAME-->
+                <div class="input-box">
+                    <label for="name_signUP">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name_signUP" name="name_signUP">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password_signUP">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password_signUP" name="password_signUP">
+                        </div>
+                    </label>
+
+                    <label for="confirm_password">
+                        Confirm password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="confirm_password" name="confirm_password">
+                        </div>
+                    </label>
+                    
+                    <!-- back to login -->
+                    <div id="back_login">
+                        <a href="../../index.html">
+                            <- Back to login page
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SIGN UP BUTTON -->
+            <button type="submit" id="signUP_button">
+                Sign Up
+            </button>
+        </form>
+        
+    </main>
+
+    <script type="text/javascript" src="../js/signUP.js"></script>
+</body>
+</html>

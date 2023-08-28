@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>formulario_login gustavus</title>
+</head>
+<body>
+    
+    <main id="container">
+
+        <form id="login-form">
+
+            <!--MY GITHUB ICONS-->
+            <div id="my_github">
+                <p><- My GitHub</p>
+                <img src="assets/images/gustavus_cat.png" alt="gustavus">
+            </div>
+
+            <!--MESSAGE BOX-->
+            <div id="msgLogin"></div>
+
+            <!--FORM HEADER-->
+            <div id="form-header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+            <!--SOCIAL MEDIA ICONS-->
+            <div id="social_media">
+
+                <a href="#">
+                    <img src="assets/images/facebook.png" alt="facebook logo">
+                </a>
+
+                <a href="#">
+                    <img src="assets/images/google.png" alt="Google logo">
+                </a>
+                
+                <a href="https://github.com/DevGustavus">
+                    <img src="assets/images/github.png" alt="github logo">
+                </a>
+            </div>
+
+            <div id="form-inputs">
+
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email_login">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email_login" name="email_login">
+                        </div>
+                    </label>
+                </div>
+
+                <!--NAME-->
+                <div class="input-box">
+                    <label for="name_login">
+                        Name
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name_login" name="name_login">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- PASSWORD -->
+                <div class="input-box">
+                    <label for="password_login">
+                        Password
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password_login" name="password_login">
+                        </div>
+                    </label>
+                    
+                    <!-- forgot password -->
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+
+                        <a href="assets/HTML/signUP.html">
+                            Don't have an account?
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+        
+    </main>
+
+    <script type="text/javascript" src="assets/js/index.js"></script>
+</body>
+</html>
