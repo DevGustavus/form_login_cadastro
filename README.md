@@ -1,5 +1,8 @@
 <h1 align="center">registration and login form:</h1>
 
+## 📲 View the project here
+<a href="https://devgustavus.github.io/form_login_cadastro/">https://devgustavus.github.io/form_login_cadastro/</a>
+
 ## 📖 About the project
 This project is a form for login and registration, it has login verification and authentication functionality.<br>
 In total, there are 2 HTML pages, one for login and one for registration, and every registration is saved in localStorage as JSON.<br>
