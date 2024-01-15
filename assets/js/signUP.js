@@ -59,7 +59,7 @@ signUP.addEventListener('click', function(submit_signUP){
         msg.innerHTML = "<strong>Cadastro realizado com sucesso!</strong>";
 
         setTimeout( () => {
-            window.location.href = 'http://127.0.0.1:5500/index.html';
+            window.location.href = './../../index.html';
         }, 2000);
         
     } else{
