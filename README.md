@@ -8,7 +8,7 @@ This project is a form for login and registration, it has login verification and
 In total, there are 2 HTML pages, one for login and one for registration, and every registration is saved in localStorage as JSON.<br>
 This project is responsive to various screens and devices.
 
-<img src="assets/to_README/demonstration_gif.gif">
+<img src="assets/to_README/mainPg.png">
 
 ### LocalStorage demonstration
 <img src="assets/to_README/localStorage_example.png" width="80%">
